@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://steammoto.com/sitemap.xml
+
+# Block common non-content paths
+Disallow: /products/product-template.html
