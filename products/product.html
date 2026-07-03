@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product — Jieneng Steam Cleaning Equipment</title>
+  <meta name="description" content="Industrial steam cleaning equipment by Guangdong Jieneng Electrical Technology Co., Ltd.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Guangdong Jieneng Electrical Technology Co., Ltd.">
+
+  <!-- Open Graph (populated by JS) -->
+  <meta property="og:type" content="product">
+  <meta property="og:title" content="Product — Jieneng Steam Cleaning Equipment">
+  <meta property="og:description" content="Industrial steam cleaning equipment by Guangdong Jieneng Electrical Technology Co., Ltd.">
+  <meta property="og:url" content="https://www.stjieneng.com/products/product-template.html">
+  <meta property="og:site_name" content="Jieneng Steam Cleaning Equipment">
+  <meta property="og:image" content="https://www.stjieneng.com/images/company/logo.jpg">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card (populated by JS) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Product — Jieneng Steam Cleaning Equipment">
+  <meta name="twitter:description" content="Industrial steam cleaning equipment by Guangdong Jieneng Electrical Technology Co., Ltd.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.stjieneng.com/products/product-template.html">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="../images/company/logo.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Schema.org Structured Data: Product (populated by JS) -->
+  <script type="application/ld+json" id="product-schema">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "",
+    "description": "",
+    "brand": {
+      "@type": "Brand",
+      "name": "Jieneng"
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "Guangdong Jieneng Electrical Technology Co., Ltd.",
+      "url": "https://www.stjieneng.com"
+    },
+    "image": "",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Guangdong Jieneng Electrical Technology Co., Ltd."
+      }
+    }
+  }
+  </script>
+
+  <!-- BreadcrumbList Schema (populated by JS) -->
+  <script type="application/ld+json" id="breadcrumb-schema">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.stjieneng.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.stjieneng.com/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": ""
+      }
+    ]
+  }
+  </script>
+
+  <!-- Product page specific styles -->
+  <style>
+    /* Breadcrumb */
+    .breadcrumb {
+      margin-top: var(--header-height);
+      padding: var(--space-4) 0;
+      background: var(--color-white);
+      border-bottom: 1px solid var(--color-gray-200);
+    }
+    .breadcrumb-list {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+    }
+    .breadcrumb-list li {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+    .breadcrumb-list a {
+      color: var(--color-gray-500);
+    }
+    .breadcrumb-list a:hover {
+      color: var(--color-primary);
+    }
+    .breadcrumb-separator {
+      color: var(--color-gray-400);
+      font-size: var(--text-xs);
+    }
+    .breadcrumb-current {
+      color: var(--color-gray-800);
+      font-weight: 600;
+    }
+
+    /* Gallery thumbnails */
+    .product-gallery-thumbs {
+      display: flex;
+      gap: var(--space-2);
+      padding: var(--space-3);
+      overflow-x: auto;
+    }
+    .product-gallery-thumb {
+      width: 72px;
+      height: 54px;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      border: 2px solid transparent;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: border-color var(--transition-fast);
+    }
+    .product-gallery-thumb:hover,
+    .product-gallery-thumb.active {
+      border-color: var(--color-primary);
+    }
+    .product-gallery-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Key specs grid */
+    .key-specs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-3);
+      margin: var(--space-6) 0;
+      padding: var(--space-5);
+      background: var(--color-gray-50);
+      border-radius: var(--radius-md);
+    }
+    .key-spec {
+      display: flex;
+      flex-direction: column;
+    }
+    .key-spec-value {
+      font-size: var(--text-lg);
+      font-weight: 700;
+      color: var(--color-primary);
+    }
+    .key-spec-label {
+      font-size: var(--text-xs);
+      color: var(--color-gray-500);
+      margin-top: var(--space-1);
+    }
+
+    /* Full spec table section */
+    .spec-section {
+      padding: var(--space-20) 0;
+    }
+    .spec-section h2 {
+      text-align: center;
+      margin-bottom: var(--space-12);
+    }
+    .spec-table-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--color-white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-gray-200);
+      overflow: hidden;
+    }
+    .spec-table td:last-child {
+      color: var(--color-gray-600);
+    }
+
+    /* Features section */
+    .features-section {
+      padding: var(--space-20) 0;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-6);
+    }
+    .feature-item {
+      display: flex;
+      gap: var(--space-4);
+      padding: var(--space-5);
+      background: var(--color-white);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-gray-200);
+      transition: all var(--transition-base);
+    }
+    .feature-item:hover {
+      border-color: var(--color-primary);
+      box-shadow: var(--shadow-md);
+    }
+    .feature-item-icon {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      background: var(--color-primary);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-white);
+    }
+    .feature-item-text {
+      font-size: var(--text-sm);
+      color: var(--color-gray-600);
+      line-height: 1.6;
+    }
+    .feature-item-text strong {
+      display: block;
+      color: var(--color-gray-800);
+      margin-bottom: var(--space-1);
+    }
+
+    /* Applications section */
+    .applications-section {
+      padding: var(--space-20) 0;
+    }
+    .applications-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      justify-content: center;
+    }
+    .application-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-5);
+      background: var(--color-white);
+      border: 1px solid var(--color-gray-200);
+      border-radius: 100px;
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--color-gray-700);
+      transition: all var(--transition-base);
+    }
+    .application-tag:hover {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+    }
+
+    /* FAQ section */
+    .faq-section {
+      padding: var(--space-20) 0;
+    }
+
+    /* Related products */
+    .related-section {
+      padding: var(--space-20) 0;
+    }
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: var(--space-6);
+    }
+    .related-card {
+      padding: var(--space-6);
+      background: var(--color-white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-gray-200);
+      transition: all var(--transition-base);
+      text-decoration: none;
+    }
+    .related-card:hover {
+      border-color: var(--color-primary);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+    .related-card-model {
+      font-size: var(--text-xs);
+      font-weight: 700;
+      color: var(--color-accent);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: var(--space-2);
+    }
+    .related-card-name {
+      font-size: var(--text-base);
+      font-weight: 600;
+      color: var(--color-gray-800);
+      margin-bottom: var(--space-2);
+    }
+    .related-card-tagline {
+      font-size: var(--text-sm);
+      color: var(--color-gray-500);
+      line-height: 1.5;
+    }
+
+    /* 404 state */
+    .product-not-found {
+      margin-top: var(--header-height);
+      padding: var(--space-24) 0;
+      text-align: center;
+    }
+    .product-not-found h1 {
+      font-size: var(--text-4xl);
+      color: var(--color-gray-300);
+      margin-bottom: var(--space-4);
+    }
+    .product-not-found p {
+      font-size: var(--text-lg);
+      color: var(--color-gray-500);
+      margin-bottom: var(--space-8);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .key-specs {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+      .related-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="../" class="logo" aria-label="Jieneng Home">
+        <img src="../images/company/logo.jpg" alt="Jieneng Logo" width="40" height="40">
+        <span>Jieneng</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../#products" class="active">Products</a></li>
+          <li><a href="../#about">About</a></li>
+          <li><a href="../#certifications">Certifications</a></li>
+          <li><a href="../#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="../#contact" class="btn btn-primary">Get a Quote</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== CONTENT (dynamically populated) ========== -->
+  <div id="page-content">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb-list" id="breadcrumb">
+          <li><a href="../">Home</a><span class="breadcrumb-separator">/</span></li>
+          <li><a href="../#products">Products</a><span class="breadcrumb-separator">/</span></li>
+          <li><span class="breadcrumb-current" id="breadcrumb-product">Loading...</span></li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Product Hero -->
+    <section class="product-hero" id="product-hero">
+      <div class="container">
+        <!-- Gallery -->
+        <div class="product-gallery" id="product-gallery">
+          <div class="product-gallery-main" id="gallery-main">
+            <img id="gallery-main-img" src="" alt="" loading="eager">
+          </div>
+          <div class="product-gallery-thumbs" id="gallery-thumbs"></div>
+        </div>
+
+        <!-- Info -->
+        <div class="product-info" id="product-info">
+          <span class="product-tag" id="product-category-tag"></span>
+          <h1 id="product-title"></h1>
+          <p class="product-description" id="product-tagline"></p>
+
+          <!-- Key specs highlights -->
+          <div class="key-specs" id="key-specs"></div>
+
+          <!-- CTA -->
+          <div class="product-cta">
+            <a href="mailto:stjieneng@gmail.com?subject=Quote%20Request%3A%20" id="cta-quote" class="btn btn-primary btn-lg">Request Quote</a>
+            <a href="#" id="cta-spec" class="btn btn-outline" style="border-color:var(--color-primary);color:var(--color-primary);" download>Download Spec Sheet</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Specs -->
+    <section class="spec-section section-gray" id="spec-section">
+      <div class="container">
+        <h2>Technical Specifications</h2>
+        <div class="spec-table-wrapper" id="spec-table-wrapper"></div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features-section" id="features-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Key Features</h2>
+          <p id="features-subtitle"></p>
+        </div>
+        <div class="features-grid" id="features-grid"></div>
+      </div>
+    </section>
+
+    <!-- Applications -->
+    <section class="applications-section section-gray" id="applications-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Applications</h2>
+          <p>Industries and use cases suited for this model</p>
+        </div>
+        <div class="applications-grid" id="applications-grid"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list" id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-section section-gray" id="related-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Related Models</h2>
+          <p>Other products in the same category</p>
+        </div>
+        <div class="related-grid" id="related-grid"></div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-about">
+          <div class="footer-logo">
+            <img src="../images/company/logo.jpg" alt="Jieneng Logo" width="36" height="36">
+            <span>Jieneng</span>
+          </div>
+          <p>Guangdong Jieneng Electrical Technology Co., Ltd. is a National High-Tech and Specialized &amp; Sophisticated Enterprise specializing in industrial steam cleaning equipment. Based in Shantou, Guangdong, China.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="../">Home</a></li>
+            <li><a href="../#products">Products</a></li>
+            <li><a href="../#about">About Us</a></li>
+            <li><a href="../#certifications">Certifications</a></li>
+            <li><a href="https://www.stjieneng.com" target="_blank" rel="noopener noreferrer">Official Website</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-products">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="product-template.html?id=jnx-g36">Explosion-Proof Steam Cleaner</a></li>
+            <li><a href="product-template.html?id=jnx-36">Industrial Steam Cleaner</a></li>
+            <li><a href="product-template.html?id=precision-jnx-12">Precision Parts Cleaner</a></li>
+            <li><a href="product-template.html?id=jnx-12000-i">Steam Car Wash Machine</a></li>
+            <li><a href="product-template.html?id=jnx-l">PV Panel Cleaning Robot</a></li>
+            <li><a href="product-template.html?id=oil-cylinder-auto">Automated Cleaning System</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:stjieneng@gmail.com">stjieneng@gmail.com</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+8613302738777">+86 13302738777</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <a href="https://www.stjieneng.com" target="_blank" rel="noopener noreferrer">www.stjieneng.com</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Shantou, Guangdong, China</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Guangdong Jieneng Electrical Technology Co., Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== WHATSAPP FLOAT ========== -->
+  <a href="https://wa.me/8613302738777" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="../js/products.js"></script>
+
+  <script>
+  (function() {
+    'use strict';
+
+    /* ---------- Helpers ---------- */
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function getProductId() {
+      var params = new URLSearchParams(window.location.search);
+      return params.get('id');
+    }
+
+    function getCategoryById(catId) {
+      if (!PRODUCT_DATA || !PRODUCT_DATA.categories) return null;
+      return PRODUCT_DATA.categories.find(function(c) { return c.id === catId; }) || null;
+    }
+
+    /* Spec field display labels */
+    var SPEC_LABELS = {
+      power: 'Power',
+      voltage: 'Voltage',
+      steamPressure: 'Steam Pressure',
+      steamTemp: 'Steam Temperature',
+      steamFlow: 'Steam Flow',
+      heatUpTime: 'Heat-Up Time',
+      tankCapacity: 'Water Tank Capacity',
+      hoseLength: 'Hose Length',
+      gunCount: 'Gun Count',
+      controlSystem: 'Control System',
+      shellMaterial: 'Shell Material',
+      innerMaterial: 'Inner Tank Material',
+      dimensions: 'Dimensions (L×W×H)',
+      weight: 'Net Weight',
+      packageDimensions: 'Package Dimensions',
+      packageWeight: 'Package Weight',
+      continuousOperation: 'Continuous Operation',
+      safetyProtections: 'Safety Protections',
+      warranty: 'Warranty',
+      certifications: 'Certifications',
+      leadTime: 'Lead Time',
+      origin: 'Origin',
+      pumpBrand: 'Pump Brand'
+    };
+
+    /* Key spec highlights — fields shown in the hero area */
+    var KEY_SPEC_FIELDS = [
+      { key: 'power', label: 'Power', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>' },
+      { key: 'steamPressure', label: 'Pressure', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M12 18v4M4.93 4.93l4.24 4.24M14.83 14.83l4.24 4.24M2 12h6M18 12h4M4.93 19.07l4.24-4.24M14.83 9.17l4.24-4.24"/></svg>' },
+      { key: 'steamTemp', label: 'Temperature', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>' },
+      { key: 'steamFlow', label: 'Steam Flow', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0L12 2.69z"/></svg>' }
+    ];
+
+    /* Feature icons (rotated based on index) */
+    var FEATURE_ICONS = [
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0L12 2.69z"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/></svg>'
+    ];
+
+
+    /* ---------- 404 Handler ---------- */
+    function show404() {
+      document.getElementById('page-content').innerHTML =
+        '<div class="product-not-found">' +
+          '<div class="container">' +
+            '<h1>Product Not Found</h1>' +
+            '<p>The product you are looking for does not exist or has been removed.</p>' +
+            '<a href="../#products" class="btn btn-primary btn-lg">Browse All Products</a>' +
+          '</div>' +
+        '</div>';
+      document.title = 'Product Not Found — Jieneng Steam Cleaning Equipment';
+    }
+
+
+    /* ---------- SEO Updates ---------- */
+    function updateSEO(product, category) {
+      var title = product.model + ' ' + product.name + ' | Jieneng Steam Cleaning Equipment';
+      var desc = product.tagline + ' By Guangdong Jieneng Electrical Technology Co., Ltd. ' + (category ? category.name + '. ' : '') + (product.certifications || '');
+      var url = 'https://www.stjieneng.com/products/product-template.html?id=' + getProductId();
+
+      document.title = title;
+
+      /* Meta tags */
+      document.querySelector('meta[name="description"]').setAttribute('content', desc);
+      document.querySelector('meta[property="og:title"]').setAttribute('content', title);
+      document.querySelector('meta[property="og:description"]').setAttribute('content', desc);
+      document.querySelector('meta[property="og:url"]').setAttribute('content', url);
+      document.querySelector('meta[name="twitter:title"]').setAttribute('content', title);
+      document.querySelector('meta[name="twitter:description"]').setAttribute('content', desc);
+      document.querySelector('link[rel="canonical"]').setAttribute('href', url);
+
+      if (product.images && product.images.hero) {
+        var heroUrl = 'https://www.stjieneng.com/' + product.images.hero;
+        document.querySelector('meta[property="og:image"]').setAttribute('content', heroUrl);
+      }
+
+      /* Schema.org Product */
+      var productSchema = JSON.parse(document.getElementById('product-schema').textContent);
+      productSchema.name = product.model + ' ' + product.name;
+      productSchema.description = desc;
+      productSchema.image = product.images && product.images.hero ? 'https://www.stjieneng.com/' + product.images.hero : '';
+      if (product.certifications) {
+        productSchema.additionalProperty = {
+          '@type': 'PropertyValue',
+          'name': 'Certifications',
+          'value': product.certifications
+        };
+      }
+      document.getElementById('product-schema').textContent = JSON.stringify(productSchema);
+
+      /* Schema.org BreadcrumbList */
+      var breadcrumbSchema = JSON.parse(document.getElementById('breadcrumb-schema').textContent);
+      breadcrumbSchema.itemListElement[2].name = product.model;
+      breadcrumbSchema.itemListElement[2].item = url;
+      document.getElementById('breadcrumb-schema').textContent = JSON.stringify(breadcrumbSchema);
+    }
+
+
+    /* ---------- Breadcrumb ---------- */
+    function renderBreadcrumb(product, category) {
+      var el = document.getElementById('breadcrumb-product');
+      el.textContent = product.model;
+    }
+
+
+    /* ---------- Product Hero ---------- */
+    function renderProductHero(product, category) {
+      /* Category tag */
+      var tag = document.getElementById('product-category-tag');
+      tag.textContent = category ? category.name : product.category;
+
+      /* Title */
+      document.getElementById('product-title').textContent = product.model + ' — ' + product.name;
+
+      /* Tagline */
+      document.getElementById('product-tagline').textContent = product.tagline;
+
+      /* Main gallery image */
+      var mainImg = document.getElementById('gallery-main-img');
+      if (product.images && product.images.hero) {
+        mainImg.src = '../' + product.images.hero;
+        mainImg.alt = product.model + ' ' + product.name;
+      } else {
+        mainImg.src = '../images/company/logo.jpg';
+        mainImg.alt = product.model;
+      }
+
+      /* Gallery thumbnails */
+      var thumbsContainer = document.getElementById('gallery-thumbs');
+      thumbsContainer.innerHTML = '';
+      var allImages = [];
+      if (product.images) {
+        if (product.images.hero) allImages.push(product.images.hero);
+        if (product.images.gallery && product.images.gallery.length) {
+          product.images.gallery.forEach(function(img) {
+            if (img !== product.images.hero) allImages.push(img);
+          });
+        }
+      }
+      allImages.forEach(function(img, idx) {
+        var thumb = document.createElement('div');
+        thumb.className = 'product-gallery-thumb' + (idx === 0 ? ' active' : '');
+        thumb.innerHTML = '<img src="../' + img + '" alt="' + escapeHtml(product.model) + ' view ' + (idx + 1) + '" loading="lazy">';
+        thumb.addEventListener('click', function() {
+          mainImg.src = '../' + img;
+          document.querySelectorAll('.product-gallery-thumb').forEach(function(t) { t.classList.remove('active'); });
+          thumb.classList.add('active');
+        });
+        thumbsContainer.appendChild(thumb);
+      });
+
+      /* Key specs highlights */
+      var keySpecsEl = document.getElementById('key-specs');
+      keySpecsEl.innerHTML = '';
+      KEY_SPEC_FIELDS.forEach(function(field) {
+        if (product[field.key] && product[field.key] !== '—') {
+          var specDiv = document.createElement('div');
+          specDiv.className = 'key-spec';
+          specDiv.innerHTML =
+            '<span class="key-spec-value">' + escapeHtml(product[field.key]) + '</span>' +
+            '<span class="key-spec-label">' + field.label + '</span>';
+          keySpecsEl.appendChild(specDiv);
+        }
+      });
+
+      /* CTA */
+      document.getElementById('cta-quote').href = 'mailto:stjieneng@gmail.com?subject=Quote%20Request%3A%20' + encodeURIComponent(product.model);
+      document.getElementById('cta-spec').href = 'mailto:stjieneng@gmail.com?subject=Spec%20Sheet%20Request%3A%20' + encodeURIComponent(product.model);
+      document.getElementById('cta-spec').textContent = 'Download Spec Sheet';
+    }
+
+
+    /* ---------- Spec Table ---------- */
+    function renderSpecTable(product) {
+      var wrapper = document.getElementById('spec-table-wrapper');
+      var rows = '';
+      Object.keys(SPEC_LABELS).forEach(function(key) {
+        if (product[key] && product[key] !== '—') {
+          rows +=
+            '<tr>' +
+              '<td>' + SPEC_LABELS[key] + '</td>' +
+              '<td>' + escapeHtml(product[key]) + '</td>' +
+            '</tr>';
+        }
+      });
+
+      if (!rows) {
+        document.getElementById('spec-section').style.display = 'none';
+        return;
+      }
+
+      wrapper.innerHTML = '<table class="spec-table">' + rows + '</table>';
+    }
+
+
+    /* ---------- Features ---------- */
+    function renderFeatures(product) {
+      var grid = document.getElementById('features-grid');
+      grid.innerHTML = '';
+
+      if (!product.features || !product.features.length) {
+        document.getElementById('features-section').style.display = 'none';
+        return;
+      }
+
+      document.getElementById('features-subtitle').textContent = 'What makes the ' + product.model + ' stand out';
+
+      product.features.forEach(function(feature, idx) {
+        var icon = FEATURE_ICONS[idx % FEATURE_ICONS.length];
+        var item = document.createElement('div');
+        item.className = 'feature-item';
+        item.innerHTML =
+          '<div class="feature-item-icon">' + icon + '</div>' +
+          '<div class="feature-item-text">' + escapeHtml(feature) + '</div>';
+        grid.appendChild(item);
+      });
+    }
+
+
+    /* ---------- Applications ---------- */
+    function renderApplications(product) {
+      var grid = document.getElementById('applications-grid');
+      grid.innerHTML = '';
+
+      if (!product.applications || !product.applications.length) {
+        document.getElementById('applications-section').style.display = 'none';
+        return;
+      }
+
+      product.applications.forEach(function(app) {
+        var tag = document.createElement('span');
+        tag.className = 'application-tag';
+        tag.innerHTML =
+          '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>' +
+          escapeHtml(app);
+        grid.appendChild(tag);
+      });
+    }
+
+
+    /* ---------- FAQ ---------- */
+    function renderFAQ(product) {
+      var list = document.getElementById('faq-list');
+      list.innerHTML = '';
+
+      if (!product.faq || !product.faq.length) {
+        document.getElementById('faq-section').style.display = 'none';
+        return;
+      }
+
+      product.faq.forEach(function(item) {
+        var faqItem = document.createElement('div');
+        faqItem.className = 'faq-item';
+        faqItem.innerHTML =
+          '<button class="faq-question" aria-expanded="false">' + escapeHtml(item.q) + '</button>' +
+          '<div class="faq-answer"><div class="faq-answer-inner">' + escapeHtml(item.a) + '</div></div>';
+
+        var btn = faqItem.querySelector('.faq-question');
+        btn.addEventListener('click', function() {
+          var isActive = faqItem.classList.contains('active');
+          /* Close all */
+          document.querySelectorAll('.faq-item').forEach(function(fi) {
+            fi.classList.remove('active');
+            fi.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+            fi.querySelector('.faq-answer').style.maxHeight = null;
+          });
+          /* Toggle current */
+          if (!isActive) {
+            faqItem.classList.add('active');
+            btn.setAttribute('aria-expanded', 'true');
+            var answer = faqItem.querySelector('.faq-answer');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+          }
+        });
+
+        list.appendChild(faqItem);
+      });
+    }
+
+
+    /* ---------- Related Products ---------- */
+    function renderRelated(product, category) {
+      var grid = document.getElementById('related-grid');
+      grid.innerHTML = '';
+
+      if (!category || !category.models || category.models.length <= 1) {
+        document.getElementById('related-section').style.display = 'none';
+        return;
+      }
+
+      var currentId = getProductId();
+      var hasRelated = false;
+
+      category.models.forEach(function(modelId) {
+        if (modelId === currentId) return;
+        var relProduct = PRODUCT_DATA.products[modelId];
+        if (!relProduct) return;
+        hasRelated = true;
+
+        var card = document.createElement('a');
+        card.className = 'related-card';
+        card.href = 'product-template.html?id=' + modelId;
+        card.innerHTML =
+          '<div class="related-card-model">' + escapeHtml(relProduct.model) + '</div>' +
+          '<div class="related-card-name">' + escapeHtml(relProduct.name) + '</div>' +
+          '<div class="related-card-tagline">' + escapeHtml(relProduct.tagline) + '</div>';
+        grid.appendChild(card);
+      });
+
+      if (!hasRelated) {
+        document.getElementById('related-section').style.display = 'none';
+      }
+    }
+
+
+    /* ---------- Init ---------- */
+    function init() {
+      var productId = getProductId();
+
+      if (!productId || !PRODUCT_DATA || !PRODUCT_DATA.products || !PRODUCT_DATA.products[productId]) {
+        show404();
+        return;
+      }
+
+      var product = PRODUCT_DATA.products[productId];
+      var category = getCategoryById(product.category);
+
+      updateSEO(product, category);
+      renderBreadcrumb(product, category);
+      renderProductHero(product, category);
+      renderSpecTable(product);
+      renderFeatures(product);
+      renderApplications(product);
+      renderFAQ(product);
+      renderRelated(product, category);
+    }
+
+
+    /* Header scroll effect */
+    function initHeader() {
+      var header = document.getElementById('header');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 10) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+    }
+
+    /* Mobile nav toggle */
+    function initNavToggle() {
+      var toggle = document.getElementById('navToggle');
+      var nav = document.getElementById('nav');
+      if (!toggle || !nav) return;
+      toggle.addEventListener('click', function() {
+        var expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', !expanded);
+        nav.classList.toggle('open');
+      });
+    }
+
+
+    /* Run */
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() { init(); initHeader(); initNavToggle(); });
+    } else {
+      init();
+      initHeader();
+      initNavToggle();
+    }
+
+  })();
+  </script>
+
+  <!-- main.js loaded after page content is generated -->
+  <script src="../js/main.js"></script>
+</body>
+</html>
