@@ -22,7 +22,7 @@ const PRODUCT_DATA = {
       description: "From 6kW to 48kW, PLC-controlled industrial steam cleaners delivering saturated steam up to 210°C and 25 bar. Ideal for manufacturing, automotive, steel, and mechanical engineering industries.",
       icon: "🏭",
       heroImage: "images/industrial-steam/jnx-36-hero.jpg",
-      models: ["jnx-6", "jnx-18", "jnx-24", "jnx-36", "jnx-48", "jnx-g40"]
+      models: ["jnx-6", "jnx-10", "jnx-18", "jnx-24", "jnx-36", "jnx-48", "jnx-g40"]
     },
     {
       id: "precision-parts",
@@ -204,6 +204,65 @@ const PRODUCT_DATA = {
         gallery: []
       },
       faq: []
+    },
+
+    "jnx-10": {
+      model: "JNX-10",
+      category: "industrial-steam",
+      name: "Industrial Steam Cleaner for Rail Maintenance Workshop",
+      tagline: "10kW Dry Steam Cleaning Machine for Locomotive Underframe, Bogie & Brake System Cleaning",
+      power: "10 kW",
+      voltage: "380V / 50Hz / 3-Phase",
+      steamPressure: "6–10 bar",
+      steamTemp: "170–210 °C",
+      steamFlow: "20–30 L/H",
+      heatUpTime: "60 seconds",
+      tankCapacity: "18 L",
+      hoseLength: "10 m",
+      gunCount: "1",
+      controlSystem: "PLC Control",
+      shellMaterial: "Stainless Steel",
+      innerMaterial: "Stainless Steel",
+      dimensions: "720 × 490 × 760 mm",
+      weight: "40 kg",
+      packageDimensions: "870 × 650 × 905 mm",
+      packageWeight: "50 kg",
+      continuousOperation: "24 hours",
+      safetyProtections: "Low-water protection, Over-pressure protection, Leakage protection, Emergency stop",
+      warranty: "1 year",
+      origin: "Shantou, Guangdong, China",
+      features: [
+        "10kW instant steam generator — steam ready in 60 seconds",
+        "6–10 bar adjustable dry steam pressure for controlled degreasing",
+        "170–210°C high-temperature steam softens grease, oil film, carbon deposits",
+        "Low water consumption vs. traditional high-volume pressure washing",
+        "PLC control system with clear pressure and temperature monitoring",
+        "Multiple safety protection: low-water, over-pressure, leakage, emergency stop",
+        "Stainless steel shell and inner tank for long service life",
+        "24-hour industrial duty with 18L water tank and 10m working radius"
+      ],
+      applications: [
+        "Locomotive underframe cleaning",
+        "Bogie and brake system cleaning",
+        "Engine bay cleaning",
+        "Bearing and component degreasing",
+        "Brake dust and carbon deposit softening",
+        "Workshop floor degreasing",
+        "Heat-based sanitation of workshop facilities",
+        "Maintenance cleaning in tropical and humid project sites"
+      ],
+      images: {
+        hero: "images/industrial-steam/jnx-10-hero.jpg",
+        gallery: []
+      },
+      faq: [
+        { q: "What is the JNX-10 Industrial Steam Cleaner used for?", a: "The JNX-10 is used for rail maintenance workshop cleaning, locomotive underframe cleaning, engine bay cleaning, bogie and brake system cleaning, bearing and component degreasing, workshop floor cleaning and heat-based sanitation." },
+        { q: "Is JNX-10 suitable for locomotive underframe cleaning?", a: "Yes. The JNX-10 provides 6–10 bar steam pressure and 170–210°C high-temperature steam, helping soften grease, oil film and carbon deposits on locomotive underframes and maintenance components." },
+        { q: "What power supply does JNX-10 require?", a: "The standard JNX-10 requires 380V / 50Hz / 3-phase power supply. For 10kW continuous industrial steam output, three-phase power is recommended." },
+        { q: "Can JNX-10 reduce water consumption compared with pressure washing?", a: "Yes. Steam cleaning uses high-temperature steam as the main cleaning medium and can reduce water consumption and workshop flooding compared with high-volume water washing." },
+        { q: "Can the JNX-10 be used in Africa rail maintenance projects?", a: "Yes. The machine is suitable for industrial maintenance workshops, including tropical and humid project environments. Final configuration should be confirmed according to site power supply, water quality and cleaning tasks." },
+        { q: "Does JNX-10 include a 10m steam hose?", a: "Yes. The standard configuration includes a 10m heat-resistant steam hose and one steam gun." }
+      ]
     },
 
     "jnx-18": {
