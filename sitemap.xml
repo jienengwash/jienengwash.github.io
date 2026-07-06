@@ -61,4 +61,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- JNX-10 Rail Workshop Steam Cleaner (GEO/AEO Optimized) -->
+  <url>
+    <loc>https://steammoto.com/products/jnx-10-rail-workshop-steam-cleaner.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
