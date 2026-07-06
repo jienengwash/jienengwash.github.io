@@ -67,4 +67,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <!-- Rail Maintenance Steam Cleaning Solutions -->
+  <url>
+    <loc>https://steammoto.com/solutions/rail-maintenance-steam-cleaning.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- JNX-10 Tender Specification Reference -->
+  <url>
+    <loc>https://steammoto.com/tender/jnx-10-rail-workshop-steam-cleaner-specification.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
