@@ -79,4 +79,61 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Blog Index -->
+  <url>
+    <loc>https://steammoto.com/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Blog Articles -->
+  <url>
+    <loc>https://steammoto.com/blog/industrial-steam-cleaner-price-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/industrial-steam-cleaner-selection-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/steam-cleaning-vs-chemical-cleaning.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/industrial-steam-cleaner-applications.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/steam-cleaner-energy-consumption.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/steam-cleaner-vs-manual-cleaning.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/steam-cleaner-temperature-pressure-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/how-to-choose-cleaning-equipment-manufacturer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/steam-cleaning-environmental-compliance.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://steammoto.com/blog/industrial-steam-cleaner-maintenance-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
